@@ -56,10 +56,10 @@ extern "C"
 
 /* CONSTANTS **************************************************************************************/
 
-static const uint16_t WIFI_TIMEOUT_MS = 20000u;     /**< Maximum wait time to establish the WiFi connection */
+static const uint16_t WIFI_TIMEOUT_MS = 20000u;    /**< Maximum wait time to establish the WiFi connection */
 static const String DIRECTORY = "WLAN";            /**< NVM Directory for STA Credentials */
-static const String AP_SSID = "ESP32";             /**< SSID of ESP Access Point. */
-static const String AP_PASSWORD = "hochschuleulm"; /**< Password of ESP Access Point. */
+static const String AP_SSID = "ESP32-WiFi-CAN";    /**< SSID of ESP Access Point. */
+static const String AP_PASSWORD = "commabody";     /**< Password of ESP Access Point. */
 
 /* MACROS *****************************************************************************************/
 

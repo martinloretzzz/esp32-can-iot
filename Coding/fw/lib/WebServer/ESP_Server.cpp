@@ -109,8 +109,7 @@ bool ESPServer::begin()
         }
     }
 
-    if (!SPIFFS.begin())
-    {
+    if (!SPIFFS.begin(true)) {
         success = false;
     }
 

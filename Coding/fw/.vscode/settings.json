@@ -25,5 +25,6 @@
         "bitset": "cpp",
         "ostream": "cpp"
     },
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "editor.formatOnSave": false
 }

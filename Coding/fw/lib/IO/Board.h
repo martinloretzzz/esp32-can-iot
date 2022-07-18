@@ -64,7 +64,8 @@ namespace Board
         static const uint8_t indicatorSTAMode = 18U;
 
         /** Pin number of WiFi-Mode Button */
-        static const uint8_t userButton = 21U;
+        /* Use the Boot button(GPIO0) as WiFi-Mode button (press shortly after reset) */
+        static const uint8_t userButton = 0U;
 
         /** GPIO */
         static const uint8_t GPIO_1 = 27U;
