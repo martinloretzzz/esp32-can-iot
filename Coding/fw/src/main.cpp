@@ -46,13 +46,20 @@ Main Application
 ***************************************************************************************************/
 /* INCLUDES ***************************************************************************************/
 #include <Arduino.h>
-#include "Lawicel.h"
-#include "SerialAdapter.h"
-#include "CANAdapter.h"
-#include "NVMAdapter.h"
-#include "WebSocketAdapter.h"
+#include <DNSServer.h>
+
+#include "Board.cpp"
 #include "Board.h"
+#include "CANAdapter.h"
+#include "ESP_Server.cpp"
+#include "Lawicel.cpp"
+#include "Lawicel.h"
+#include "NVMAdapter.h"
+#include "SerialAdapter.h"
+#include "WLAN.cpp"
 #include "WLAN.h"
+#include "WebSocketAdapter.h"
+#include "Websocket.cpp"
 
 /* CONSTANTS **************************************************************************************/
 
